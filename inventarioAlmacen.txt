@@ -1,0 +1,19 @@
+001 , 100 , 25 , 70 , 001_AA , Yogures de fresa
+002 ,  10 ,  2 , 3 , 001_AB , chorizo picante
+003 ,  80 , 20 , 35 , 021_CA , papel de plata
+004 ,  30 ,  5 , 27 , 031_ZAS , chocolate con leche extrafino en paquetes de 3
+005 , 1000 , 200 , 458 , 061_PASILLO_VERDE , caja de bombones
+006 , 100 , 25 , 45 , 034_CA , lavavajillas marca X
+007 ,  90 , 20 , 34 , 021_BA , barra de pan
+008 , 100 , 25 , 98 , 231_VA , natillas
+009 ,  30 ,  5 , 12 , 041_XA , tarta de manzana
+010 ,  10 ,  2 ,  3 , 241_CC , vino "el pago de carraovejas" crianza
+011 , 100 , 25 , 45 , 031_FR , Camisa marca blanca talla XXL modelo 234
+012 , 120 , 30 , 40 , 401_FA , disco duro de 2 TB
+013 ,  50 , 10 , 17 , 671_VN , steak tartar
+014 , 150 , 35 , 75 , 311_YD , bolsa de naranjas de zumo
+015 ,  80 , 20 , 24 , 199_SW , leche entera pascual (caja de 4 litros)
+016 ,  90 , 22 , 56 , 034_WM , pizza de cuatro quesos marca la napolitana
+017 ,  30 ,  5 , 12 , 501_NO , salchichas de Nurenberg, paquete de 200 g
+018 ,  65 , 15 , 34 , 613_PZ , cepillo de dientes marca colmillo blanco
+019 ,  45 ,  7 , 40 , 505_AS , empanada gallega celta

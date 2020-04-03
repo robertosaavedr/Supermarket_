@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a4a54af0-dde9-4451-83c1-9b3cc0b1d8a8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readthedocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/readthedocs.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Stub" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="2b5791d4-928c-4a79-a40c-3f264b79d609" />
+  <component name="ProjectId" id="1Zd2uoKSinQyaIi73slNyHTwidU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Roberto Saavedra\Documents\Data Science\ESTADÍSTICA APLICADA\2\cuatri 2\untitled" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.simulacion">
+    <configuration name="AB" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="supermarket" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Roberto Saavedra\Documents\Data Science\ESTADÍSTICA APLICADA\2\cuatri 2\untitled\AB.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ABC" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="supermarket" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Roberto Saavedra\Documents\Data Science\ESTADÍSTICA APLICADA\2\cuatri 2\untitled\ABC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="simulacion" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="supermarket" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/simulacion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4a54af0-dde9-4451-83c1-9b3cc0b1d8a8" name="Default Changelist" comment="" />
+      <created>1585154875922</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585154875922</updated>
+      <workItem from="1585154921373" duration="1780000" />
+      <workItem from="1585161716789" duration="4214000" />
+      <workItem from="1585256345529" duration="783000" />
+      <workItem from="1585310649433" duration="21731000" />
+      <workItem from="1585385375963" duration="4928000" />
+      <workItem from="1585391781897" duration="1953000" />
+      <workItem from="1585393774006" duration="10003000" />
+      <workItem from="1585410018841" duration="17696000" />
+      <workItem from="1585485205127" duration="5735000" />
+      <workItem from="1585491475005" duration="10826000" />
+      <workItem from="1585573532283" duration="10431000" />
+      <workItem from="1585646713526" duration="11617000" />
+      <workItem from="1585683504233" duration="13170000" />
+      <workItem from="1585754641844" duration="4482000" />
+      <workItem from="1585759871463" duration="1492000" />
+      <workItem from="1585761429751" duration="5429000" />
+      <workItem from="1585808702986" duration="5016000" />
+      <workItem from="1585818133364" duration="9886000" />
+      <workItem from="1585833216423" duration="2614000" />
+      <workItem from="1585839109785" duration="9349000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="496" y="39" key="#AB" timestamp="1585650766759">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="496" y="39" key="#AB/0.0.1536.824@0.0.1536.824" timestamp="1585650766759" />
+    <state x="361" y="71" key="#Inspections" timestamp="1585395560887">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1585395560887" />
+    <state x="361" y="71" width="814" height="728" key="#Intentions" timestamp="1585578434441">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" width="814" height="728" key="#Intentions/0.0.1536.824@0.0.1536.824" timestamp="1585578434441" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585161662874">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585161662874" />
+    <state x="896" y="218" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585161094942">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="896" y="218" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1585161094942" />
+    <state x="496" y="39" key="#entregar" timestamp="1585171342274">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="496" y="39" key="#entregar/0.0.1536.824@0.0.1536.824" timestamp="1585171342274" />
+    <state x="150" y="167" key="FileChooserDialogImpl" timestamp="1585650436776">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="150" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585650436776" />
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1585815467993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585815467993" />
+    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1585815467992">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585815467992" />
+    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1585815467992">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585815467992" />
+    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1585815467992">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585815467992" />
+    <state x="349" y="155" key="IDE.errors.dialog" timestamp="1585751116735">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="155" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1585751116735" />
+    <state x="622" y="58" width="914" height="714" key="SettingsEditor" timestamp="1585832974259">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="622" y="58" width="914" height="714" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585832974259" />
+    <state x="849" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1585839113351">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="849" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585839113351" />
+    <state x="0" y="0" width="738" height="824" key="find.popup" timestamp="1585650477082">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" width="738" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1585650477082" />
+    <state x="410" y="139" width="700" height="530" key="recent.locations.popup" timestamp="1585650346621">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="410" y="139" width="700" height="530" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" timestamp="1585650346621" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585420741491">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585420741491" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/supermarket$entregar.coverage" NAME="entregar Coverage Results" MODIFIED="1585591072534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/supermarket$simulacion.coverage" NAME="simulacion Coverage Results" MODIFIED="1585814989661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/supermarket$ABC.coverage" NAME="ABC Coverage Results" MODIFIED="1585648910069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/supermarket$AB.coverage" NAME="AB Coverage Results" MODIFIED="1585814961008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

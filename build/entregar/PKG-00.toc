@@ -1,0 +1,44 @@
+('C:\\Users\\Roberto Saavedra\\Documents\\Data Science\\ESTADÍSTICA '
+ 'APLICADA\\2\\cuatri 2\\untitled\\build\\entregar\\PKG-00.pkg',
+ {'BINARY': 1,
+  'DATA': 1,
+  'EXECUTABLE': 1,
+  'EXTENSION': 1,
+  'PYMODULE': 1,
+  'PYSOURCE': 1,
+  'PYZ': 0},
+ [('PYZ-00.pyz',
+   'C:\\Users\\Roberto Saavedra\\Documents\\Data Science\\ESTADÍSTICA '
+   'APLICADA\\2\\cuatri 2\\untitled\\build\\entregar\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\Roberto Saavedra\\.conda\\envs\\tf1\\lib\\struct.pyo',
+   'PYMODULE'),
+  ('pyimod01_os_path',
+   'C:\\Users\\Roberto '
+   'Saavedra\\.conda\\envs\\tf1\\lib\\site-packages\\PyInstaller\\loader\\pyimod01_os_path.pyc',
+   'PYMODULE'),
+  ('pyimod02_archive',
+   'C:\\Users\\Roberto '
+   'Saavedra\\.conda\\envs\\tf1\\lib\\site-packages\\PyInstaller\\loader\\pyimod02_archive.pyc',
+   'PYMODULE'),
+  ('pyimod03_importers',
+   'C:\\Users\\Roberto '
+   'Saavedra\\.conda\\envs\\tf1\\lib\\site-packages\\PyInstaller\\loader\\pyimod03_importers.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\Roberto '
+   'Saavedra\\.conda\\envs\\tf1\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('entregar',
+   'C:\\Users\\Roberto Saavedra\\Documents\\Data Science\\ESTADÍSTICA '
+   'APLICADA\\2\\cuatri 2\\untitled\\entregar.py',
+   'PYSOURCE'),
+  ('entregar.exe.manifest',
+   'C:\\Users\\Roberto Saavedra\\Documents\\Data Science\\ESTADÍSTICA '
+   'APLICADA\\2\\cuatri 2\\untitled\\build\\entregar\\entregar.exe.manifest',
+   'BINARY')],
+ True,
+ False,
+ False,
+ [])

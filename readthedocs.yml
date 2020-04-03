@@ -1,0 +1,8 @@
+python:
+<<<<<<< HEAD
+    setup_py_install: true
+=======
+  setup_py_install: false
+>>>>>>> c150a3f903353fb7b109be28a3181e432dbc2fda
+conda:
+  file: environment.yml

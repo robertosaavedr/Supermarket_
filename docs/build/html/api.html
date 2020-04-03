@@ -1,0 +1,442 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>DOCUMENTACIÓN &mdash; Supermarket 0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="ACERCA DE ESTE PROYECTO" href="uno.html" />
+    <link rel="prev" title="Welcome to Supermarket’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Supermarket
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">DOCUMENTACIÓN</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#loading-inventory-from-csv">LOADING INVENTORY FROM CSV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#updating-sales">UPDATING SALES</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sales-and-restocks">SALES AND RESTOCKS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#warehouse-class">WAREHOUSE CLASS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#simulation">SIMULATION</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="uno.html">ACERCA DE ESTE PROYECTO</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Supermarket</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>DOCUMENTACIÓN</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/api.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="documentacion">
+<h1>DOCUMENTACIÓN<a class="headerlink" href="#documentacion" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="loading-inventory-from-csv">
+<h2>LOADING INVENTORY FROM CSV<a class="headerlink" href="#loading-inventory-from-csv" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="inventory_from_txt.load_inventory">
+<code class="sig-prename descclassname">inventory_from_txt.</code><code class="sig-name descname">load_inventory</code><span class="sig-paren">(</span><em class="sig-param">file: str</em>, <em class="sig-param">sep='</em>, <em class="sig-param">'</em><span class="sig-paren">)</span> &#x2192; dict<a class="headerlink" href="#inventory_from_txt.load_inventory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read a file separated by , into a dictionary</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>file</strong> (<em>str</em>) – string path</p></li>
+<li><p><strong>sep</strong> (<em>str</em>) – delimiter to use.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p></p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dictionary which contains an inventory</p>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">almacen</span> <span class="o">=</span> <span class="n">load_inventory</span><span class="p">(</span><span class="s1">&#39;inventarioAlmacen.txt&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">almacen</span><span class="p">)</span>
+<span class="go">{&#39;001&#39;: [100, 25, 70, &#39;001_AA&#39;, &#39;Yogures de fresa&#39;], &#39;002&#39;: .......</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="updating-sales">
+<h2>UPDATING SALES<a class="headerlink" href="#updating-sales" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="A.sells">
+<code class="sig-prename descclassname">A.</code><code class="sig-name descname">sells</code><span class="sig-paren">(</span><em class="sig-param">inventory: dict</em>, <em class="sig-param">file: str</em><span class="sig-paren">)</span><a class="headerlink" href="#A.sells" title="Permalink to this definition">¶</a></dt>
+<dd><p>Procedure which reads a file containing a supermarket selling log, then updates a dictionary which contains
+supermarket stock</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>inventory</strong> – dict which contains information about each product</p></li>
+<li><p><strong>file</strong> – string path</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Example</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">almacen</span> <span class="o">=</span> <span class="n">load_inventory</span><span class="p">(</span><span class="s1">&#39;inventarioAlmacen.txt&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">sells</span><span class="p">(</span><span class="n">almacen</span><span class="p">,</span> <span class="s1">&#39;ventasCajas.txt&#39;</span><span class="p">)</span>
+<span class="go">Venta : 20-oct-2006 12:25 001 34</span>
+<span class="go">Antes de :  100 25 70 001_AA Yogures de fresa</span>
+<span class="go">Después de :  100 25 36 001_AA Yogures de fresa</span>
+<span class="go">======&gt;Necesidad de reponer&lt;========</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="sales-and-restocks">
+<h2>SALES AND RESTOCKS<a class="headerlink" href="#sales-and-restocks" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="AB.sells_and_restocks">
+<code class="sig-prename descclassname">AB.</code><code class="sig-name descname">sells_and_restocks</code><span class="sig-paren">(</span><em class="sig-param">inventory</em>, <em class="sig-param">file</em><span class="sig-paren">)</span><a class="headerlink" href="#AB.sells_and_restocks" title="Permalink to this definition">¶</a></dt>
+<dd><p>Procedure which read every line of a given file, in the follawing format:
+[VENTA | REPO] [DAY-MONTH(e.g. ‘OCT’, ‘ENE’)] [TIME(24H)] [PRODUCT CODE] [PRODUCT UNITS]
+Then, updates current stock in the given inventory</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>inventory</strong> – dictionary which contains products which we want to update</p></li>
+<li><p><strong>file</strong> – string path</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="warehouse-class">
+<h2>WAREHOUSE CLASS<a class="headerlink" href="#warehouse-class" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="class_warehouse.Warehouse">
+<em class="property">class </em><code class="sig-prename descclassname">class_warehouse.</code><code class="sig-name descname">Warehouse</code><a class="headerlink" href="#class_warehouse.Warehouse" title="Permalink to this definition">¶</a></dt>
+<dd><p>Manages a supermarket inventory, allowing to operate with supermarket stock either adding up or subtracting, you are
+able to load your dictionary from a external file. Attributes are show below(products and _copy_products)</p>
+<dl class="simple">
+<dt>products :</dt><dd><p>A dictionary whose keys are the product code and its elements are the maximum and minimum number of units
+in our shelves, our actual stock for each product, their locations in our supermarket and a brief description.</p>
+</dd>
+<dt>_copy_products :</dt><dd><p>In order to implement a Context Manager we have deepcopied our dictionary products, this backup
+will be helpful if we want to undo an operation.</p>
+</dd>
+</dl>
+<dl class="method">
+<dt id="class_warehouse.Warehouse.__enter__">
+<code class="sig-name descname">__enter__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#class_warehouse.Warehouse.__enter__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Backing up our main dictionary</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="class_warehouse.Warehouse.__exit__">
+<code class="sig-name descname">__exit__</code><span class="sig-paren">(</span><em class="sig-param">exc_type</em>, <em class="sig-param">exc_val</em>, <em class="sig-param">exc_tb</em><span class="sig-paren">)</span><a class="headerlink" href="#class_warehouse.Warehouse.__exit__" title="Permalink to this definition">¶</a></dt>
+<dd><p>When exc_type is not None undo the operation deepcopying _copy_products</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>exc_type</strong> – exception type</p></li>
+<li><p><strong>exc_val</strong> – exception value</p></li>
+<li><p><strong>exc_tb</strong> – traceback</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="class_warehouse.Warehouse.__getitem__">
+<code class="sig-name descname">__getitem__</code><span class="sig-paren">(</span><em class="sig-param">code: str</em><span class="sig-paren">)</span> &#x2192; list<a class="headerlink" href="#class_warehouse.Warehouse.__getitem__" title="Permalink to this definition">¶</a></dt>
+<dd><p>This magic method allows us to index our dict without write Warehouse.products[] using instead Warehouse[]</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>code</strong> – product code which is a dict key</p>
+</dd>
+</dl>
+<p class="rubric">Example</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">amazon</span> <span class="o">=</span> <span class="n">Warehouse</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">amazon</span><span class="o">.</span><span class="n">add_products</span><span class="p">(</span><span class="s1">&#39;001&#39;</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;SOUTH&#39;</span><span class="p">,</span> <span class="s1">&#39;Rice&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">amazon</span><span class="p">[</span><span class="s1">&#39;001&#39;</span><span class="p">]</span>
+<span class="go">[4, 1, 2, &#39;SOUTH&#39;, &#39;Rice&#39;]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">amazon</span><span class="o">.</span><span class="n">products</span><span class="p">[</span><span class="s1">&#39;001&#39;</span><span class="p">]</span>
+<span class="go">[4, 1, 2, &#39;SOUTH&#39;, &#39;Rice&#39;]</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="class_warehouse.Warehouse.__init__">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#class_warehouse.Warehouse.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor. Initialize our products dictionary</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="class_warehouse.Warehouse.__weakref__">
+<code class="sig-name descname">__weakref__</code><a class="headerlink" href="#class_warehouse.Warehouse.__weakref__" title="Permalink to this definition">¶</a></dt>
+<dd><p>list of weak references to the object (if defined)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="class_warehouse.Warehouse.add_products">
+<code class="sig-name descname">add_products</code><span class="sig-paren">(</span><em class="sig-param">code</em>, <em class="sig-param">maximum</em>, <em class="sig-param">minimum</em>, <em class="sig-param">stock</em>, <em class="sig-param">location</em>, <em class="sig-param">description</em><span class="sig-paren">)</span><a class="headerlink" href="#class_warehouse.Warehouse.add_products" title="Permalink to this definition">¶</a></dt>
+<dd><p>This method add a product to our dictionary.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>code</strong> – product code</p></li>
+<li><p><strong>maximum</strong> – maximum allowed in supermarket shelves</p></li>
+<li><p><strong>minimum</strong> – minimum allowed in supermarket shelves</p></li>
+<li><p><strong>stock</strong> – actual stock in shelves</p></li>
+<li><p><strong>location</strong> – location in supermarket</p></li>
+<li><p><strong>description</strong> – briefly descriptor</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="class_warehouse.Warehouse.load_from_txt">
+<code class="sig-name descname">load_from_txt</code><span class="sig-paren">(</span><em class="sig-param">file: str</em><span class="sig-paren">)</span><a class="headerlink" href="#class_warehouse.Warehouse.load_from_txt" title="Permalink to this definition">¶</a></dt>
+<dd><p>This method loads products from a external file into a dictionary</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>file</strong> – file path where our inventory is located</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="class_warehouse.Warehouse.update_inventory_from_txt">
+<code class="sig-name descname">update_inventory_from_txt</code><span class="sig-paren">(</span><em class="sig-param">file</em><span class="sig-paren">)</span><a class="headerlink" href="#class_warehouse.Warehouse.update_inventory_from_txt" title="Permalink to this definition">¶</a></dt>
+<dd><p>Given a file this method read every line, differencing between sells and restocks, updating the stock in a
+given inventory.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>file</strong> – path to a file containing a supermarket transaction log</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="class_warehouse.Warehouse.update_stock">
+<code class="sig-name descname">update_stock</code><span class="sig-paren">(</span><em class="sig-param">code: str</em>, <em class="sig-param">amount: int</em>, <em class="sig-param">sw: bool</em><span class="sig-paren">)</span> &#x2192; ValueError<a class="headerlink" href="#class_warehouse.Warehouse.update_stock" title="Permalink to this definition">¶</a></dt>
+<dd><p>This method updates the units of a given product either adding up or subtracting</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>code</strong> – Id of product</p></li>
+<li><p><strong>amount</strong> – units of product, when is &gt;0 is a restock else is a sell</p></li>
+<li><p><strong>sw</strong> – 1 when restocking, 0 when selling</p></li>
+<li><p><strong>Return</strong> – </p></li>
+<li><p><strong>-------</strong> – A str containing the error description</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="simulation">
+<h2>SIMULATION<a class="headerlink" href="#simulation" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="simulacion.supermarket_log">
+<code class="sig-prename descclassname">simulacion.</code><code class="sig-name descname">supermarket_log</code><span class="sig-paren">(</span><em class="sig-param">starting_time</em>, <em class="sig-param">finish_time</em>, <em class="sig-param">warehouse</em>, <em class="sig-param">file</em><span class="sig-paren">)</span><a class="headerlink" href="#simulacion.supermarket_log" title="Permalink to this definition">¶</a></dt>
+<dd><p>Simulating one day of restock and sells in a supermarket, the events in the supermarket follow an exponential
+distribution with an average time between events of 5 minutes. Each time that an event occur, the next event
+(restock or sell) is chosen with a binomial distribution where a sell has probability 0.65 and a restock 0.35.
+When a client buy a product, that product is selected randomly uniformly, whereas the quantity is chosen
+from a binomial with n=(max quantity of the product chosen) and p=0.15
+We are making one restock at once, each time that a restock is made the product selected is randomly uniformly
+chosen, meanwhile the quantity of the product to restock is chosen from a binomial where
+n=(max quantity allowed in shelves), p=0.65</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>starting_time</strong> – supermarket opening time</p></li>
+<li><p><strong>finish_time</strong> – supermarket closing time</p></li>
+<li><p><strong>warehouse</strong> – class Warehouse where our products catalog is saved, we need this information to know products and their codes
+in our supermarket</p></li>
+<li><p><strong>file</strong> – file path in which save our daily log</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="uno.html" class="btn btn-neutral float-right" title="ACERCA DE ESTE PROYECTO" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to Supermarket’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Roberto Saavedra
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
