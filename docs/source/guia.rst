@@ -20,7 +20,6 @@ información en ACERCA DE ESTE PROYECTO
 
 LIBRERIAS NO ESTÁNDAR
 ---------------------
-    datetime
 
     scipy 
 
