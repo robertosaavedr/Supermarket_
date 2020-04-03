@@ -1,4 +1,8 @@
-python:
-  setup_py_install: false
+version: 1
+
+sphinx: 
+  configuration: docs/source/conf.py
+
 conda:
   file: environment.yml
+
