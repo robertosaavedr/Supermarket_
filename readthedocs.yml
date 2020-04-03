@@ -1,4 +1,4 @@
-python
+python:
   setup_py_install: false
 conda:
   file: environment.yml
